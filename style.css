@@ -4,16 +4,16 @@
 }
 body{
     background-color:rgb(49, 49, 49);
-    color:rgb(247, 203, 203) ;
+    color:rgb(0, 0, 0) ;
     font-size: 120%;
 }
 a{
-    color:red ;
+    color:rgb(72, 1, 224) ;
     text-decoration: none;
 }
 a:hover{
-    color: rgb(255, 29, 29);
-    background-color: beige;
+    color: rgb(69, 0, 242);
+    background-color: rgb(9, 9, 9);
 }
 ul,li{
     list-style: none;
