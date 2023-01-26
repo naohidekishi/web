@@ -1,0 +1,214 @@
+ul li{
+        list-style: none;
+    }
+
+img{
+    max-width: 100%;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: 'Zen Antique Soft', serif;
+}
+
+/* サイト名　*/
+
+.site h1 a{
+    color: black;
+    text-decoration: none;
+    }
+
+.site h1{
+    margin: 0;
+    font-size: 30px;
+    padding: 8px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    }
+
+/*記事の投稿日*/
+
+.kizi-info{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.time{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/*記事*/
+
+.kizi h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+    }
+
+.kizi p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    }
+
+.kizi h3{
+    margin: 40px;
+    padding-left: 10px;
+    border-left: solid 10px #7cbac1;
+    font-weight: normal;
+    }
+
+/*記事の分類*/
+.kizi-info li a{
+    display: block;
+    padding: 5px;
+    color:#fff ;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #75dbe7;
+    margin-right: 5px;
+}
+.kizi-info li a:hover{
+    background-color: #eee;
+}
+.kizi-info ul{
+    display: flex;
+}
+
+.box2 ul{
+        display: flex;
+        background-color: #7cbac1;
+        justify-content: left;
+        padding: 6px;
+        margin: 0;
+        }
+
+.box2 a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 14px;
+        }
+.box2 nav li a:hover{
+        background-color: #94ecf6;
+    }
+
+.box3 ul{
+            display: flex;
+            text-align: center;
+        }
+
+/*関連記事*/
+.box3 nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(255, 203, 131);
+}
+
+.box3 nav ul li {
+    padding: 10px;
+    width: 17.5%;
+}
+    
+
+.box5{
+    border-top: solid 1px #dddddd;
+    }
+
+/*SNSのボタン*/
+.share li a{
+    display: block;
+    padding: 10px 5px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.share-tw{
+    background-color:#1DA1F2 ;
+}
+
+.share-fb{
+    background-color:#0165E1 ;
+}
+
+.share-in{
+    background-color:#CF2E92 ;
+}
+
+.share ul{
+    display: flex;
+}
+.share li{
+    width: 33.333%;
+}
+
+/*特集記事*/
+
+/*オススメ記事*/
+.side2 a{
+        position: relative;
+    }
+
+.side2 div{
+    padding: 10px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*人気の記事*/
+
+
+/* 　レスポンシブウェブの設定　*/
+/*  ### 599以下　###*/
+@media(max-width:599px){
+    /* ナビゲーション*/
+    .menu li a{
+        padding: 10px 3px;
+        font-size: 11px;
+    }
+    /* サイト名のタイトル*/
+    .site h1{
+        font-size: 20px;
+    }
+    /*　記事のタイトル　*/
+    .kizi h1{
+        font-size: 26px;
+    }
+}
+
+/* ### 600px以上　ー　767px以下　###*/
+@media(min-width:600px) and (max-width:767px){
+
+}
+
+/* ### 768px以上　###*/
+@media (min-width:768px){
+        .boxA{
+            display: flex;
+    }
+
+    .box3{
+        width: 70%;
+    }
+    .box4{
+        width: 30%;
+    }
+
+}
+/* ### 1040px以上　###*/
+@media(min-width:1040px){
+    .site,.box2,.boxA,.box5{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
