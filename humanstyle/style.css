@@ -57,8 +57,9 @@ img{
 
 .kizi h3{
     margin: 40px;
+    margin-left: 0px;
     padding-left: 10px;
-    border-left: solid 10px #7cbac1;
+    border-left: solid 10px #d74520;
     font-weight: normal;
     }
 
@@ -69,7 +70,7 @@ img{
     color:#fff ;
     font-size: 14px;
     text-decoration: none;
-    background-color: #75dbe7;
+    background-color: #d42828;
     margin-right: 5px;
 }
 .kizi-info li a:hover{
@@ -81,7 +82,7 @@ img{
 
 .box2 ul{
         display: flex;
-        background-color: #7cbac1;
+        background-color: #49db47;
         justify-content: left;
         padding: 6px;
         margin: 0;
@@ -94,8 +95,12 @@ img{
         font-size: 14px;
         }
 .box2 nav li a:hover{
-        background-color: #94ecf6;
+        background-color: #3d973c;
     }
+
+a:link{
+        color: rgb(71, 0, 0);
+        }
 
 .box3 ul{
             display: flex;
@@ -107,7 +112,7 @@ img{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgb(255, 203, 131);
+    background-color: rgb(255, 196, 196);
 }
 
 .box3 nav ul li {
@@ -197,10 +202,7 @@ img{
     }
 
     .box3{
-        width: 70%;
-    }
-    .box4{
-        width: 30%;
+        width: 100%;
     }
 
 }
